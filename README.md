@@ -1,18 +1,16 @@
 # **Runinga**
 
-## Author:
+## Authors:
 
-Ephraim Kamau, Mark Mukenia
+Ephraim Kamau, Ian Kimeli Mutai, Ian Kimeli Mutai, Kiok Sianto, Mark Mukenia
 
 ## Product Description:
 
-## Getting Started:
+## Setup Instructions:
 
-{setup instructions}
+No setup instructions
 
 ## Dependancies:
-
-## Setup Instructions:
 
 ## License:
 
