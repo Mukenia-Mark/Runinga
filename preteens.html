@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-default">
+                <div class="brand">
+                    <a href="#"><img src="./pics/icon.png" style="width: 40px; height: 40px;">RUNINGA</a>
+                </div>
+                <div class="left-side">
+                    <div class="navbar-header" >
+                        <a href="./index.html">Home</a>
+                        <a href="./kids.html">Kids</a>
+                        <a href="./preteens.html">Pre-teens</a>
+                        <a href="./teens.html">Teens</a>
+                        <input type="text" id="searchbar" placeholder="Search..">
+                    </div>
+                </div>
+        </nav>
+        <div class="carousel" id="carouselExampleCaptions">
+            <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <img src="./pics/insideout1.jpg" class="center" style="height: 720px; width: 1280px; object-fit: cover;">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="./pics/croods.jpg" class="center" style="height: 720px; width: 1280px; object-fit: cover;">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="./pics/meals.jpg" class="center" style="height: 720px; width: 1280px; object-fit: cover;">
+            </div>
+            
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="col-md-12 mx-auto mt-20">
+            <div class="row-mt-5 text-center" id="row1">
+                <div class="col-md-3">
+                    <img src="./pics/flatten.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout1.jpg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout2.jpg" style="height: 200px; width: 200px;">
+                </div>
+            </div> 
+            <div class="row text-center" id="row1">
+                <div class="col-md-3">
+                    <img src="./pics/flatten.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout1.jpg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout2.jpg" style="height: 200px; width: 200px;">
+                </div>
+            </div> 
+            <div class="row text-center" id="row1">
+                <div class="col-md-3">
+                    <img src="./pics/flatten.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout1.jpg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout2.jpg" style="height: 200px; width: 200px;">
+                </div>
+            </div> 
+        </div>
+        <br><br><br><br>
+        <p>
+            <form id="feedback" action="">
+                <div class="orders" id="order">
+                    <h1 class="text-center" id="review">REVIEW A MOVIE</h1>
+                        <div class="form-group row">
+                            <div class="col-sm-2"></div>
+                                <div class="col-sm-8 order-overlay text-center">
+                        <form class="col-sm-6 offset-sm-3 text-center">
+                            <label col>Pick a movie to review</label><br>
+                            <select class="custom-select custom-select-md mb-3" required>
+                                <option value="insideout">Inside Out</option>
+                            </select>
+            <br><div class="pinfo"></div>
+            
+            <br><input  name="name" placeholder="Your Name" class="form-control"  type="text">
+            <br>
+            <textarea class="form-control" id="review" rows="3" placeholder="Your review here"></textarea><br>
+            
+                
+            
+            
+            
+            
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br><br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </div>
+            
+
+        </div>
+        </div>
+        </div>
+            
+        </form><br><br><br>
+    <footer>
+        <div class="social mx-auto text-center">
+            <div class="col">
+                <img src="./pics/twitter.png" style="height: 40px; width: 40px;">
+                <img src="./pics/youtube.png" style="height: 30px; width: 40px;">
+                <img src="./pics/facebook.webp" style="height: 40px; width: 40px;">
+                <img src="./pics/instagram.webp" style="height: 40px; width: 40px;">
+            </div>
+        </div>
+        <p style="text-align: center;">
+            ©Runinga 2021
+        </p>
+    </footer>
+    </body>
+    
+</html>
