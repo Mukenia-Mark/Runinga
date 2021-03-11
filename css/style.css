@@ -231,7 +231,7 @@ footer {
   width: 80%;
 }
 
-//* teens page*//
+/* teens page*/
 .close {
   color: #aaa;
   float: right;
@@ -310,7 +310,8 @@ footer {
   cursor: pointer;
 }
 
-//*pre-teens page*//
+/*pre-teens page*/
+
 .close7 {
   color: #aaa;
   float: right;
@@ -371,6 +372,86 @@ footer {
 }
 .close11:hover,
 .close11:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*kids page*/
+
+.close12 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close12:hover,
+.close12:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close13 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close13:hover,
+.close13:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close14 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close14:hover,
+.close14:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close15 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close15:hover,
+.close15:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close16 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close16:hover,
+.close16:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close17 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close17:hover,
+.close17:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
