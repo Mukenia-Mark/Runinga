@@ -2,7 +2,7 @@
 
 ## Authors:
 
-Ephraim Kamau, Ian Kimeli Mutai, Ian Kimeli Mutai, Kiok Sianto, and Mark Mukenia
+Ephraim Kamau, Ian Kimeli Mutai, Kelvin Wanjohi Maina, Kiok Sianto, and Mark Mukenia
 
 ## Product Description:
 
