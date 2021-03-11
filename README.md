@@ -2,7 +2,7 @@
 
 ## Authors:
 
-Ephraim Kamau, Ian Kimeli Mutai, Ian Kimeli Mutai, Kiok Sianto, Mark Mukenia
+Ephraim Kamau, Ian Kimeli Mutai, Ian Kimeli Mutai, Kiok Sianto, and Mark Mukenia
 
 ## Product Description:
 
@@ -14,14 +14,11 @@ No setup instructions
 
 ## Technologies Used:
 
-HTML
-JavaScript
-CSS
+HTML, JavaScript, and CSS
 
 ## Dependancies:
 
-Bootleg
-JQuery
+Bootleg and JQuery
 
 ## License:
 
