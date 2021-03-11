@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Runinga</title>
 </head>
 <body>
@@ -11,209 +12,153 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a href="#">Home</a>
-            <a href="#">Kids</a>
-            <a href="#">Pre-teens</a>
-            <a href="#">Teens</a>
+            <div>
+              <a href="#">Home</a>
+            </div>
+            <div>
+              <a href="./kids.html">Kids</a>
+            </div>
+            <div>
+              <a href="#">Pre-teens</a>
+            </div>
+            <div>
+              <a href="#">Teens</a>
+            </div>
         </div>
     </nav>
     <!-- Home -->
-    <div class="container1">
-        <div class="carousel-slide" data-ride="carousel">
-            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="./pics/anne-of-green-gables.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./pics/insideout.jpeg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./pics/matilda.jpg" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+      <div class="carousel" id="carouselExampleCaptions">
+        <div class="carousel-inner">
+          <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+          <div class="carousel-item">
+              <img src="./pics/insideout1.jpg" class="center" style="height: 720px; width: 1280px; object-fit: cover;">
           </div>
-    </div>
-    <h2 style="text-align:center">Slideshow Gallary</h2>
-    
-    <div class="container">
-      <div class="mySlides">
-        <div class="numbertext">1 / 6</div>
-        <img
-          src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/b8eba2639f69f1708d3c4bc79d8c9c46276362522179a66b29600eee0746e3ea._UR1920,1080_RI_SX356_FMwebp_.jpg"
-          style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">2 / 6</div>
-        <img
-          src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/CNBC-08C81-Full-Image_GalleryCover-en-US-1469654134300._UR1920,1080_RI_SX356_FMwebp_.jpg"
-          style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">3 / 6</div>
-        <img
-          src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/9ctez-YG22TSJY3GD-Full-Image_GalleryCover-en-US-1570821191658._UR1920,1080_RI_SX356_FMwebp_.jpg"
-          style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">4 / 6</div>
-        <img
-          src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/xw9et-0XEKTKBKDFC-Full-Image_GalleryCover-en-US-1590434104768._UR1920,1080_RI_SX356_FMwebp_.jpg"
-          style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">5 / 6</div>
-        <img
-          src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/newvideo-CEG10019975-Full-Image_GalleryCover-en-US-1494860951228._UR1920,1080_RI_SX356_FMwebp_.jpg"
-          style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">6 / 6</div>
-        <img
-          src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/xw9et-YRDW1AM3VFR-Full-Image_GalleryCover-en-US-1607092515998._UR1920,1080_RI_UX400_UY225_.jpg"
-          style="width:100%">
-      </div>
-    
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
-    
-      <div class="caption-container">
-        <p id="caption"></p>
-      </div>
-    
-      <div class="row2">
-        <div class="col-md-2">
-          <img class="demo cursor"
-            src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/b8eba2639f69f1708d3c4bc79d8c9c46276362522179a66b29600eee0746e3ea._UR1920,1080_RI_SX356_FMwebp_.jpg"
-            style="width:100%" onclick="currentSlide(1)"
-            alt="The world's most unlikely heroes are on a mission to sare the Earth in DreamWorks Animation's Monsters Vs. Aliens">
-        </div>
-        <div class="col-md-2">
-          <img class="demo cursor"
-            src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/CNBC-08C81-Full-Image_GalleryCover-en-US-1469654134300._UR1920,1080_RI_SX356_FMwebp_.jpg"
-            style="width:100%" onclick="currentSlide(2)"
-            alt="Surf's up for Barbie asa she returns as Merliah, the surfing champ who's also a mermaid princess,in this new sea-quel where she learn..........">
-        </div>
-        <div class="col-md-2">
-          <img class="demo cursor"
-            src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/9ctez-YG22TSJY3GD-Full-Image_GalleryCover-en-US-1570821191658._UR1920,1080_RI_SX356_FMwebp_.jpg"
-            style="width:100%" onclick="currentSlide(3)"
-            alt="Two very different dogs movies into together when their owners get married.But when thieves try to break into their houses, these.........">
-        </div>
-        <div class="col-md-2">
-          <img class="demo cursor"
-            src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/xw9et-0XEKTKBKDFC-Full-Image_GalleryCover-en-US-1590434104768._UR1920,1080_RI_SX356_FMwebp_.jpg"
-            style="width:100%" onclick="currentSlide(4)"
-            alt="Three best friends spy on their families, sneak into each other's house and organize elaborate pranks.">
-        </div>
-        <div class="col-md-2">
-          <img class="demo cursor"
-            src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/newvideo-CEG10019975-Full-Image_GalleryCover-en-US-1494860951228._UR1920,1080_RI_SX356_FMwebp_.jpg"
-            style="width:100%" onclick="currentSlide(5)"
-            alt="The lovable Ozzy's pampered life is thrown into turmoil after his family drops him at Blue creek before their vacation.Ozzy quickly learns......">
-        </div>
-        <div class="col-md-2">
-          <img class="demo cursor"
-            src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/xw9et-YRDW1AM3VFR-Full-Image_GalleryCover-en-US-1607092515998._UR1920,1080_RI_UX400_UY225_.jpg"
-            style="width:100%" onclick="currentSlide(6)"
-            alt="Young I van's newfound love of board games catapults him into the funtastical & competitive world of game invention.">
+          <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+          <div class="carousel-item">
+              <img src="./pics/croods.jpg" class="center" style="height: 720px; width: 1280px; object-fit: cover;">
+          </div>
+          <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+          <div class="carousel-item">
+              <img src="./pics/meals.jpg" class="center" style="height: 720px; width: 1280px; object-fit: cover;">
+          </div>
+          
+          <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+          <label for="carousel-2" class="carousel-control next control-1">›</label>
+          <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+          <label for="carousel-3" class="carousel-control next control-2">›</label>
+          <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+          <label for="carousel-1" class="carousel-control next control-3">›</label>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
         </div>
       </div>
-    </div>
-    
-    <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
+      <div >
+        
+      </div>
+        <br><br><br><br>
+        <div class="col-md-12 mx-auto mt-20">
+            <div class="row-mt-5 text-center" id="row1">
+                <div class="col-md-3">
+                    <img src="./pics/flatten.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout1.jpg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout2.jpg" style="height: 200px; width: 200px;">
+                </div>
+            </div> 
+            <div class="row text-center" id="row1">
+                <div class="col-md-3">
+                    <img src="./pics/flatten.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout1.jpg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout2.jpg" style="height: 200px; width: 200px;">
+                </div>
+            </div> 
+            <div class="row text-center" id="row1">
+                <div class="col-md-3">
+                    <img src="./pics/flatten.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout.jpeg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout1.jpg" style="height: 200px; width: 200px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="./pics/insideout2.jpg" style="height: 200px; width: 200px;">
+                </div>
+            </div> 
+        </div>
+        <br><br><br><br>
+        <p>
+            <form id="feedback" action="">
+                <div class="orders" id="order">
+                    <h1 class="text-center" id="review">REVIEW A MOVIE</h1>
+                        <div class="form-group row">
+                            <div class="col-sm-2"></div>
+                                <div class="col-sm-8 order-overlay text-center">
+                        <form class="col-sm-6 offset-sm-3 text-center">
+                            <label col>Pick a movie to review</label><br>
+                            <select class="custom-select custom-select-md mb-3" required>
+                                <option value="insideout">Inside Out</option>
+                            </select>
+            <br><div class="pinfo"></div>
+            
+            <br><input  name="name" placeholder="Your Name" class="form-control"  type="text">
+            <br>
+            <textarea class="form-control" id="review" rows="3" placeholder="Your review here"></textarea><br>
+            
+                
+            
+            
+            
+            
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br><br>
+                <button type="submit" class="btn btn-primary">Submit</button>
 
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
+            </div>
+            
 
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
-        if (n > slides.length) { slideIndex = 1 }
-        if (n < 1) { slideIndex = slides.length }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        captionText.innerHTML = dots[slideIndex - 1].alt;
-      }
-    </script>
-    
+        </div>
+        </div>
+        </div>
+            
+        </form><br><br><br>
+    <footer>
+        <div class="social mx-auto text-center">
+            <div class="col">
+                <img src="./pics/twitter.png" style="height: 40px; width: 40px;">
+                <img src="./pics/youtube.png" style="height: 30px; width: 40px;">
+                <img src="./pics/facebook.webp" style="height: 40px; width: 40px;">
+                <img src="./pics/instagram.webp" style="height: 40px; width: 40px;">
+            </div>
+        </div>
+        <p style="text-align: center;">
+            ©Runinga 2021
+        </p>
+    </footer>
     </body>
-    
-    =======
-    <html lang="en">
-    
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./css/bootstrap.css">
-      <title>Runinga</title>
-    </head>
-    
-    <body>
-      <!-- nav bar section -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a href="#">Home</a>
-            <a href="#">Kids</a>
-            <a href="#">Pre-teens</a>
-            <a href="#">Teens</a>
-          </div>
-      </nav>
-      <!-- Home -->
-      <div class="container1">
-        <div class="carousel-slide" data-ride="carousel">
-          <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
-            checked="checked">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="./pics/anne-of-green-gables.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="./pics/insideout.jpeg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="./pics/matilda.jpg" alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-      
-</body>
 </html>
