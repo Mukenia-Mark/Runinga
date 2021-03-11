@@ -189,3 +189,10 @@ footer {
 .checked {
   color: green;
 }
+.home {
+    text-align: center;
+    text-decoration-color: cornflowerblue;
+    font-size: 150%;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 200px;
+}
